@@ -142,9 +142,19 @@ h2 {
     flex-wrap: wrap;
 }
 
+.project-card2 {
+    padding: 10px;
+    width: 420px;
+}
+
 .project-card {
     padding: 10px;
     width: 300px;
+}
+
+.project-card2 img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 .project-card img {
