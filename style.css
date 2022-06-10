@@ -1,212 +1,32 @@
-/* box-model */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+section {
+   /*
+    Sometimes good to use very obvious style to make sure css file and selection in effect
+    Search RGB to get up to 16M different values. 
+    Companies and flags etc have different colors.
+    background-color: #00ff00; 
+    */
+    
+    background-color: orange;
+    
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #F4FFFC;
-    color: #2C4047;
-    width: auto;
-    margin: 0;
-}
-
-h1 {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 60px;
-}
-
-h2 {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
-}
-
-.section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 32px;
-}
-
-.container {
-    max-width: 960px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/* Nav Bar */
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.1);
-}
+    width: 70vw;
+    height: 80vh;
 
-.nav-bar > .container {
+    /*
+    Relatively recently flexbox has become very powerful and popular in CSS
+    */
     display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
-.nav-bar-logo {
-    border-radius: 8px;
+img {
+    /*
+    CSS comments look like Java/JS multi-line comments, single-line comments don't work //
+     height: 300px;
+    */
+    
 }
-
-.nav-bar-menu {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-.nav-bar-item {
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
-    padding: .5rem 1rem;
-    text-decoration: none;
-    color: rgba(0,0,0,.55);
-}
-
-.nav-bar-item.active {
-    color: rgba(0,0,0,.9);
-}
-
-/* Main Header */
-#main-header > .container {
-    display: flex;
-    flex-wrap: inherit;
-    justify-content: space-between;
-}
-
-#main-header .details {
-    max-width: 500px;
-}
-
-#main-header img {
-    border-radius: 25px;
-    width: 250px;
-    height: auto;
-}
-
-@media screen and (max-width:992px){
-    #main-header {
-        flex-wrap: wrap;
-        padding: 20px;
-        text-align: center;
-    }
-
-    #main-header .details {
-        width: 100%;
-    }
-
-    #main-header img {
-        margin: auto;
-    }
-}
-
-/* Biography */
-
-#biography {
-    background: white;
-}
-
-#biography p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-/*When screen size is less than 780px*/
-@media screen and (max-width:780px){
-    #biography {
-        flex-wrap: wrap;
-    }
-}
-
-/* Portafolio */
-.project-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.project-card {
-    padding: 10px;
-    width: 300px;
-}
-
-.project-card img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.project-card h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 37px;
-    margin: 0;
-}
-
-.project-card h4 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0;
-    padding-top: 15px;
-    text-transform: uppercase;
-}
-
-@media screen and (max-width: 780px) {
-    .project-card {
-        width: 370px;
-    }
-}
-
-/* Footer */
-#contact {
-    background-color: #2C4047;
-    color: white;
+.center {
     text-align: center;
-    padding: 100px 20px;
-}
-
-#contact > .container {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0;
-}
-
-#contact a {
-    color: white;
-    text-decoration: none;
-    padding: .5rem 1rem;
-}
-
-#mini-nav {
-    padding-top: 30px;
-}
-
-#social-handles {
-    padding-top: 30px;
-}
+    color: red;
+  }
