@@ -26,7 +26,90 @@ img {
     */
     
 }
+<<<<<<< HEAD
 .center {
+=======
+<<<<<<< HEAD
+.center {
+=======
+
+/* Biography */
+
+#biography {
+    background: white;
+}
+
+#biography p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*When screen size is less than 780px*/
+@media screen and (max-width:780px){
+    #biography {
+        flex-wrap: wrap;
+    }
+}
+
+/* Portafolio */
+.project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card2 {
+    padding: 10px;
+    width: 420px;
+}
+
+.project-card {
+    padding: 10px;
+    width: 300px;
+}
+
+.project-card2 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 37px;
+    margin: 0;
+}
+
+.project-card h4 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 780px) {
+    .project-card {
+        width: 370px;
+    }
+}
+
+/* Footer */
+#contact {
+    background-color: #2C4047;
+    color: white;
+>>>>>>> 79bf525591e4cc977e7e8ecd37dbfde5783d83fc
+>>>>>>> 33bed8e81e46c30be7fbdc38af0219e804031a81
     text-align: center;
     color: red;
   }
